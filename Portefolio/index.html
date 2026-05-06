@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Laindraika Be Georgino</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-animation" id="particles"></div>
+
+  <header>
+    <h1>Laindraika Be Georgino</h1>
+    <div class="roles">
+      <span class="role-tag">🌐 Intégrateur Web</span>
+      <span class="role-tag">🎨 Apprenti Dessinateur</span>
+      <span class="role-tag">🎮 Spécialiste Pixel Art</span>
+    </div>
+  </header>
+
+  <div class="container">
+    <h2>Mes Intégrations Web</h2>
+
+    <div class="grid">
+      <div class="card">
+        <img src="Capture d’écran_12-12-2025_181356_.jpeg" alt="CabHub Project" class="card-image">
+        <div class="card-content">
+          <h3>🚕 CabHub</h3>
+          <p>Intégration complète d'une plateforme de réservation de taxi avec interface moderne et responsive.</p>
+          <a href="taxi-site/index.html">Voir le projet →</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="Capture d’écran_12-12-2025_181851_.jpeg" alt="E-commerce Project" class="card-image">
+        <div class="card-content">
+          <h3>🛍️ MeStore</h3>
+          <p>Site e-commerce moderne avec design vibrant et expérience utilisateur optimisée.</p>
+          <a href="site-commerce/index.html">Voir le projet →</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="Capture d’écran_12-12-2025_203723_.jpeg" alt="Restaurant Project" class="card-image">
+        <div class="card-content">
+          <h3>🍽️ Food Lover</h3>
+          <p>Site web pour restaurant avec galerie photos et système de contact élégant.</p>
+          <a href="sakafo2/index.html">Voir le projet →</a>
+        </div>
+      </div>
+
+      <div class="card special-card">
+        <img src="screenshot-farany.png" alt="Final Project" class="card-image">
+        <div class="card-content">
+          <h3>🌟 Schwa</h3>
+          <p>Plateforme d'apprentissage de la langue anglaise - Projet de fin de formation a gasythech.</p>
+          <a href="documentation.html">Voir la documentation →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <h2>Mes Créations Pixel Art</h2>
+
+    <div class="pixel-art-section">
+      <p class="section-intro">En tant qu'apprenti dessinateur spécialisé en pixel art, je crée des personnages, environnements et sprites pour jeux vidéo rétro.</p>
+      
+      <div class="pixel-grid">
+        <div class="pixel-card">
+          <div class="pixel-frame">
+            <img src="donut1.jpeg" alt="Avatars Pixel Art" class="pixel-image">
+          </div>
+          <h4>Avatars de Personnages</h4>
+          <p>Collection de 4 donuts xD avec différents palettes de couleurs</p>
+          <div class="pixel-tags">
+            <span class="tag">Donuts</span>
+            <span class="tag">16x16px</span>
+          </div>
+        </div>
+
+        <div class="pixel-card">
+          <div class="pixel-frame">
+            <img src="Slime-animation.gif" alt="Slime Pixel Art" class="pixel-image">
+          </div>
+          <h4>Slime Animé</h4>
+          <p>Un slime qui s'elargis et retrecis</p>
+          <div class="pixel-tags">
+            <span class="tag">Créature</span>
+            <span class="tag">Sprite</span>
+          </div>
+        </div>
+
+        <div class="pixel-card">
+          <div class="pixel-frame">
+            <img src="tree001.png" alt="Arbre Pixel Art" class="pixel-image">
+          </div>
+          <h4>Arbre Pixel style</h4>
+          <p>Design original d'un arbre avec pour jeu platformer</p>
+          <div class="pixel-tags">
+            <span class="tag">Environnement</span>
+            <span class="tag">Character</span>
+          </div>
+        </div>
+
+        <div class="pixel-card coming-soon">
+          <div class="pixel-frame">
+            <div class="coming-soon-content">
+              <span class="plus-icon">+</span>
+              <p>Plus de créations à venir...</p>
+            </div>
+          </div>
+          <h4>Projets Futurs</h4>
+          <p>Nouvelles créations en cours de développement</p>
+          <div class="pixel-tags">
+            <span class="tag">Bientôt</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2026 Laindraika Be Georgino - Portfolio</p>
+    <p style="margin-top: 10px; opacity: 0.7;">Intégrateur Web & Pixel Artist 🎨</p>
+  </footer>
+
+  <script>
+    const particlesContainer = document.getElementById('particles');
+    const particleCount = 20;
+
+    for (let i = 0; i < particleCount; i++) {
+      const particle = document.createElement('div');
+      particle.className = 'particle';
+      
+      const size = Math.random() * 60 + 20;
+      particle.style.width = size + 'px';
+      particle.style.height = size + 'px';
+      particle.style.left = Math.random() * 100 + '%';
+      particle.style.top = Math.random() * 100 + '%';
+      particle.style.animationDelay = Math.random() * 20 + 's';
+      particle.style.animationDuration = (Math.random() * 10 + 15) + 's';
+      
+      particlesContainer.appendChild(particle);
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,354 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "superfont";
+  src: url("../super-shape-font/SuperShape-PV9qE.ttf");
+}
+@font-face {
+  font-family: "cute";
+  src: url("../cookie-monster-font/Cookiemonster-gv11.ttf");
+}
+header {
+  background: url(../img/header-background.gif) rgba(0, 0, 0, 0.801);
+  background-blend-mode: darken;
+  background-size: cover;
+}
+header .head-container {
+  padding: 2vw;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5vw;
+}
+header .head-container nav {
+  width: 100%;
+  padding: 2vw;
+}
+header .head-container nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header .head-container nav ul li {
+  list-style: none;
+}
+header .head-container nav ul li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-family: superfont;
+}
+header .head-container .navhead1 {
+  width: 30%;
+}
+header .head-container .navimg {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+header .head-container .navhead2 {
+  width: 30%;
+}
+header .mainBanner {
+  width: 100%;
+  padding: 2vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+header .mainBanner img {
+  width: 45vw;
+}
+header .mainBanner .BannerContent {
+  width: 40%;
+  padding: 2vw;
+  margin-right: 6vw;
+}
+header .mainBanner .BannerContent h1 {
+  font-family: cute;
+  font-size: 5vw;
+  color: #fe9000;
+  text-transform: capitalize;
+  margin-bottom: 2vw;
+  font-weight: 100;
+}
+header .mainBanner .BannerContent p {
+  font-size: 1.6vw;
+  color: white;
+  margin-bottom: 3vw;
+  text-align: justify;
+}
+header .mainBanner .BannerContent a {
+  background: #fe9000;
+  padding: 1vw;
+  text-decoration: none;
+  color: black;
+  border-radius: 0.2vw;
+  font-size: 2vw;
+  font-family: cute;
+  text-transform: capitalize;
+}
+
+.sect-1 {
+  padding: 3vw;
+  background: #17171e;
+  display: flex;
+  justify-content: space-evenly;
+}
+.sect-1 img {
+  width: 35vw;
+}
+.sect-1 .aboutUs {
+  width: 40%;
+  margin-right: 6vw;
+}
+.sect-1 .aboutUs h2 {
+  font-family: cute;
+  font-size: 4vw;
+  color: white;
+  text-transform: capitalize;
+  margin-top: 8vw;
+  font-weight: 100;
+}
+.sect-1 .aboutUs p {
+  margin-top: 2vw;
+  color: white;
+  font-size: 2vw;
+  text-align: justify;
+}
+
+.sect-2 {
+  background: #17171e;
+  position: relative;
+  overflow-x: hidden;
+}
+.sect-2 .background-2 {
+  width: 120%;
+  margin-left: -15vw;
+}
+.sect-2 .foodQ {
+  width: 40%;
+  position: absolute;
+  padding: 2vw;
+  bottom: 80vw;
+  color: white;
+  left: 5vw;
+}
+.sect-2 .foodQ h2 {
+  font-size: 4vw;
+  font-family: cute;
+  text-transform: capitalize;
+  margin-bottom: 1.5vw;
+  font-weight: 100;
+}
+.sect-2 .foodQ p {
+  color: white;
+  font-size: 2vw;
+  text-align: justify;
+}
+.sect-2 .fraise {
+  position: absolute;
+  width: 50vw;
+  left: 60vw;
+  bottom: 85vw;
+}
+.sect-2 .oeuf {
+  position: absolute;
+  width: 47vw;
+  left: 55vw;
+  bottom: 28vw;
+}
+.sect-2 .fruits {
+  position: relative;
+  width: 30vw;
+  top: -38vw;
+  left: -2vw;
+}
+
+.sect-3 {
+  background: #17171e;
+}
+.sect-3 h2 {
+  font-size: 3vw;
+  font-family: cute;
+  text-align: center;
+  color: white;
+  margin-bottom: 3vw;
+  font-weight: 100;
+  text-transform: capitalize;
+}
+.sect-3 .pics {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 5vw;
+}
+.sect-3 .pics img {
+  margin-top: 3vw;
+  width: 25vw;
+  border-right: 1px solid #fe9000;
+}
+
+.sect-4 {
+  background: url(../img/background-3.gif);
+  background-size: cover;
+  padding: 2vw;
+  height: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sect-4 .enjoy {
+  background: rgba(23, 23, 30, 0.568627451);
+  border: 1vw #fe9000 solid;
+  text-align: center;
+  padding: 2vw;
+  width: 50%;
+  color: white;
+}
+.sect-4 .enjoy h2 {
+  text-transform: capitalize;
+  font-size: 3vw;
+  font-family: cute;
+  margin-bottom: 3vw;
+  font-weight: 100;
+}
+.sect-4 .enjoy p {
+  font-size: 2vw;
+}
+
+.sect-5 {
+  background: #17171e;
+  padding: 2vw;
+}
+.sect-5 h2 {
+  color: white;
+  font-family: cute;
+  font-size: 3vw;
+  margin-bottom: 2vw;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 100;
+}
+.sect-5 .menuBox {
+  width: 100%;
+  padding: 2vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+.sect-5 .menuBox .box {
+  width: 30%;
+}
+.sect-5 .menuBox .box:nth-child(1) img {
+  width: 25vw;
+  height: 23vw;
+}
+.sect-5 .menuBox .box:nth-child(2) img {
+  width: 25vw;
+  height: 23vw;
+}
+.sect-5 .menuBox .box:nth-child(3) img {
+  width: 25vw;
+}
+.sect-5 .menuBox .box img {
+  width: 30vw;
+}
+.sect-5 .menuBox .box h3 {
+  font-size: 2.3vw;
+  text-transform: uppercase;
+  font-weight: 100;
+  color: #fe9000;
+  font-family: superfont;
+  text-align: left;
+  margin: 2vw 0;
+}
+.sect-5 .menuBox .box p {
+  font-size: 1vw;
+  color: white;
+  margin-bottom: 2vw;
+}
+.sect-5 .menuBox .box h6 {
+  font-size: 1.5vw;
+  color: #fe9000;
+  font-family: superfont;
+  font-weight: 100;
+}
+
+.sect-6 {
+  background: #fe9000;
+  display: flex;
+  justify-content: space-around;
+  height: 30vw;
+  position: relative;
+  padding: 2vw;
+}
+.sect-6 img {
+  width: 38vw;
+  position: absolute;
+  left: -8vw;
+  top: -3vw;
+}
+.sect-6 .sectS {
+  width: 40%;
+  text-align: justify;
+  color: white;
+  margin-left: 25vw;
+  margin-top: 5vw;
+}
+.sect-6 .sectS h2 {
+  font-size: 4vw;
+  font-weight: 100;
+  font-family: cute;
+  text-transform: capitalize;
+  margin-bottom: 2vw;
+}
+.sect-6 .sectS p {
+  font-size: 1.8vw;
+}
+
+footer {
+  background: #17171e;
+  padding: 3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .footnav {
+  width: 100%;
+}
+footer .footnav nav {
+  width: 60%;
+  margin-left: 20vw;
+}
+footer .footnav nav ul {
+  padding: 2vw;
+  display: flex;
+  justify-content: space-around;
+}
+footer .footnav nav ul li {
+  list-style: none;
+}
+footer .footnav nav ul li a {
+  text-transform: uppercase;
+  font-weight: 100;
+  font-family: superfont;
+  text-decoration: none;
+  color: white;
+  font-size: 1.7vw;
+}
+footer .social {
+  width: 20%;
+  padding: 1vw;
+  display: flex;
+  justify-content: space-around;
+}
+footer .social a {
+  text-decoration: none;
+  color: white;
+  font-size: 2.3vw;
+}/*# sourceMappingURL=style.css.map */

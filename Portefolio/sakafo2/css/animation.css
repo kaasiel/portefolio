@@ -1,0 +1,163 @@
+header .head-container nav ul {
+    margin-top: -10vw;
+}
+header .head-container .navhead1 li:nth-child(1) {
+    animation: nav-animation 2s ease-in-out forwards;
+}
+header .head-container .navhead1 nav li:nth-child(2) {
+    animation: nav-animation 2s ease-in-out forwards;
+    animation-delay:1s;
+}
+header .head-container .navhead1 nav li:nth-child(3) {
+    animation: nav-animation 2s ease-in-out forwards;
+    animation-delay: 1.5s;
+}
+header .head-container .navhead1 nav li:nth-child(4) {
+    animation: nav-animation 2s ease-in-out forwards;
+    animation-delay: 2s;
+}
+header .head-container .navhead2 nav li:nth-child(1) {
+    animation: nav-animation 2s ease-in-out forwards;
+    animation-delay: 3s;
+}header .head-container nav li:nth-child(2) {
+    animation: nav-animation 2s ease-in-out forwards;
+    animation-delay: 3.5s;
+}header .head-container nav li:nth-child(3) {
+    animation: nav-animation 2s ease-in-out forwards;
+    animation-delay: 4s;
+}
+@keyframes nav-animation {
+    0% {
+        
+    }
+    25% {
+    }
+    50% {
+        transform: translateY(5vw);
+    }
+    100% {
+        margin-top: 10vw;
+    }
+}
+
+/* .navimg img{
+    animation: img-animation 3.5s forwards;
+    animation-delay: 3s;
+}
+.navimg img{
+    animation: HEART 3.5s linear infinite;
+    animation-delay: 6s;
+} */
+@keyframes img-animation {
+    0% {
+        transform: rotateY(0deg);
+    }
+    50% {
+        transform: rotateY(180deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+@keyframes HEART {
+    0% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(1.1);
+    }
+    50% {
+        transform: scale(1);
+    }
+    75% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.navimg img {
+    animation: img-animation 3.5s forwards, HEART 3.5s linear infinite;
+    animation-delay: 3s, 6.5s; /* Rotate first, then heartbeat starts after 3.5s */
+}
+/* li:hover{
+  color: #fe9000;
+    
+} */
+header .head-container .navhead1 li a:hover{
+    transition: 1s;
+  color: #fe9000;
+}
+header .head-container .navhead2 li a:hover{
+    transition: 1s;
+  color: #fe9000;
+}
+header .mainBanner .BannerContent a:hover {
+    color: #fe9000;
+    background: black;
+ }
+ .sect-2 .fraise {
+    animation: anim-fraise 15s linear infinite;
+    animation-delay:2s ;
+ }
+ @keyframes anim-fraise {
+    0%{ }
+    50%{
+        transform: rotateZ(360deg);
+    }
+    100%{
+        transform: rotateY(0deg);
+    }
+ }
+.sect-3 .pics img:hover {
+    border: 1px solid #fe9000;
+    box-shadow: 0 0 5px #fe9000, 0 0 10px #fe9000, 0 0 20px #fe9000;
+    transition: box-shadow 0.3s ease-in-out;
+}
+.sect-5 .menuBox .box img:hover {
+    border: 1px solid #fe9000;
+    box-shadow: 0 0 5px #fe9000, 0 0 10px #fe9000, 0 0 20px #fe9000;
+    transition: box-shadow 0.3s ease-in-out;
+ }
+ .sect-6 img {
+    animation: anim-fraise2 5s linear infinite;
+    animation-delay:2s ;
+ }
+ @keyframes anim-fraise2 {
+    0%{ }
+    25%{
+    }
+    50%{
+        transform: translateX(10vw) rotateZ(360deg);
+    }
+    100%{
+        transform: rotateY(0deg);
+    }
+ }
+footer .footnav nav ul li a:hover {
+    color: #fe9000;
+    transform: translateZ(2vw);
+    transition: transform 0.3s ease-in-out;
+}
+footer .social a .fa-facebook:hover{
+    color: rgb(19, 19, 219);
+    font-size: 3vw;
+    transition: .5s;
+ }
+footer .social a .fa-instagram:hover {
+    color: #E1306C; 
+    font-size: 3vw;
+    transition: .5s;
+}
+footer .social a .fa-pinterest:hover{
+    color: red;
+    font-size: 3vw;
+    transition: .5s;
+ }
+ footer .social a .fa-twitter:hover{
+    color: #1DA1F2;
+    font-size: 3vw;
+    transition: .5s;
+ }

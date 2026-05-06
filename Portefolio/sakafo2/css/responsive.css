@@ -1,0 +1,134 @@
+@media (max-width :700px){
+    header{
+        position: relative;
+    }
+    header .head-container .navimg {
+        position: relative;
+ }
+    header .head-container .navimg img{
+        position: absolute;
+        left: 50vw;
+        width: 10vw;
+ }
+ header .head-container .navhead1 nav ul {
+   position: absolute;
+    top: 8vw;
+    width: 60%;
+ } 
+ header .head-container .navhead2 nav ul {
+    position: absolute;
+     top: 3vw;
+     right: 30vw;
+     width: 60%;
+  } 
+  header .mainBanner img {
+    margin-top: 5vw;
+    width: 15vw;
+    height: 15vw;
+  }
+  header .mainBanner .BannerContent {
+    width: 70%;
+  }
+    header .mainBanner .BannerContent h1{
+        font-size: 7vw;
+  }
+  header .mainBanner .BannerContent p{
+    font-size: 4vw;
+}
+header .mainBanner .BannerContent a{
+    font-size: 4.5vw;
+    }
+    .sect-1 img {
+        margin-top: 18vw;
+        width: 30vw;
+        height: 30vw;
+    }
+    .sect-1 .aboutUs {
+        width: 50%;
+        margin-right: 6vw;
+      }
+      .sect-1 .aboutUs h2{
+        font-size: 6.5vw;
+      }
+      .sect-1 .aboutUs p{
+        font-size: 3.5vw;
+      }
+      .sect-2 .foodQ {
+        width: 60%;
+        margin-left: -5vw;
+        margin-top: 15vw;
+      }
+      .sect-2 .foodQ h2{
+        font-size: 6.5vw;
+      }
+      .sect-2 .foodQ p{
+        font-size: 3.5vw;
+      }
+      .sect-3 h2 {
+        font-size: 7vw;
+      }
+      .sect-4 {
+        height: auto;
+      }
+      .sect-4 .enjoy {
+        width: 70%;
+      }
+      .sect-4 .enjoy h2{
+        font-size: 5vw;
+      }
+      .sect-4 .enjoy p{
+        font-size: 3.5vw;
+      }
+      .sect-5{
+        height: auto;
+        overflow-x: scroll;
+      }
+      .sect-5 h2 {
+        font-size: 6vw;
+      }
+      .sect-5 .menuBox {
+        width: 140%;
+        height: 140%;
+      }
+      /* .sect-5 .menuBox .box{
+        font-size: 4vw;
+      } */
+      .sect-5 .menuBox .box h3 {
+        font-size: 4vw;
+      }
+      .sect-5 .menuBox .box p {
+        font-size: 3.5vw;
+      }
+      .sect-5 .menuBox .box h6 {
+        font-size: 4vw;
+      }
+      .sect-6{
+        height: auto;
+      }
+      .sect-6 .sectS {
+        width: 60%;
+      }
+      .sect-6 .sectS h2 {
+        font-size: 6vw;
+      }
+      .sect-6 .sectS p {
+        font-size: 4.5vw;
+      }
+      footer{
+        height: auto;
+      }
+      footer .footnav nav {
+        width: 100%;
+        position: relative;
+        right: 20vw;
+      }
+      footer .footnav nav ul li a {
+        font-size: 3.5vw;
+      }
+      footer .social {
+        width:60%;
+      }
+      footer .social a {
+        font-size: 4.5vw;
+      }
+}

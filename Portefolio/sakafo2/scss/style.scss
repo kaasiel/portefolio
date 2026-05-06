@@ -1,0 +1,366 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    // background-color: black;
+    // font-family: Arial, Helvetica, sans-serif;
+}
+@font-face {
+    font-family: 'superfont';
+    src: url('../super-shape-font/SuperShape-PV9qE.ttf');
+}
+@font-face {
+    font-family: 'cute';
+    src: url('../cookie-monster-font/Cookiemonster-gv11.ttf');
+}
+
+header{
+    background: url(../img/header-background.gif) rgba(0, 0, 0, 0.801);
+    background-blend-mode: darken;
+    background-size: cover;
+    .head-container{
+        // background: red;
+        padding: 2vw;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 5vw;
+        nav{
+            width: 100%;
+            padding: 2vw;
+            ul{
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                li{
+                    list-style: none;
+                    a{
+                        text-decoration: none;
+                        color: white;
+                        text-transform: uppercase;
+                        font-family: superfont;
+                    }
+                }
+            }
+        }
+        .navhead1{
+            width: 30%;
+        }
+        .navimg{
+            width: 30%;
+            // border: 1px solid white;
+            display: flex;
+            justify-content: center;
+        }
+        .navhead2{
+            width: 30%;
+        }
+    } 
+.mainBanner{
+    width: 100%;
+    // background: red;
+    padding: 2vw;
+    display: flex;
+    justify-content: space-evenly;
+    img{
+        width: 45vw;
+        
+    }
+    .BannerContent{
+        width: 40%;
+        padding: 2vw;
+        // border: 1px solid black;
+        margin-right: 6vw;
+        h1{
+            font-family: cute;
+            font-size: 5vw;
+            color:#fe9000;
+            // font-weight: 100;
+            text-transform: capitalize;
+            margin-bottom: 2vw;
+            font-weight: 100;
+        }
+        p{
+            font-size: 1.6vw;
+            color: white;
+            margin-bottom: 3vw;
+            text-align: justify;
+        }
+        a{
+            background: #fe9000;
+            padding: 1vw;
+            text-decoration: none;
+            color: black;
+            border-radius: .2vw;
+            font-size: 2vw;
+            font-family: cute;
+            text-transform: capitalize;
+        }
+    }
+}
+}
+.sect-1{
+    padding: 3vw;
+    background: #17171e;
+    display: flex;
+    justify-content: space-evenly;
+    img{
+        width: 35vw;
+    }
+    .aboutUs{
+        width: 40%;
+        // border: 1px solid white;
+        margin-right: 6vw;
+        h2{
+            font-family: cute;
+            font-size: 4vw;
+            color: white;
+            text-transform: capitalize;
+            margin-top: 8vw;
+            font-weight: 100;
+        }
+        p{
+            margin-top: 2vw;
+            color: white;
+            font-size: 2vw;
+            text-align: justify;
+        }
+    }
+}
+.sect-2{
+   background: #17171e;
+   position: relative;
+   overflow-x: hidden;
+    .background-2{
+        width: 120%;
+        margin-left: -15vw;
+    }
+    .foodQ{
+        width: 40%;
+        position: absolute;
+        padding: 2vw;
+        // border: 5px solid white;
+        bottom: 80vw;
+        color: white;
+        left: 5vw;
+        h2{
+            font-size: 4vw;
+            font-family: cute;
+            text-transform: capitalize;
+            margin-bottom: 1.5vw;
+            font-weight: 100;
+        }
+        p{
+            color: white;
+            font-size: 2vw;
+            text-align: justify;
+        }
+    }
+    .fraise{
+        position: absolute;
+        width: 50vw;
+        left: 60vw;
+        bottom: 85vw;
+    }
+    .oeuf{
+        position: absolute;
+        width: 47vw;
+        left: 55vw;
+        bottom: 28vw;
+    }
+    .fruits{
+        position: relative;
+        width: 30vw;
+        top: -38vw;
+        left: -2vw;
+        
+    }
+}
+.sect-3{
+    background: #17171e;
+    h2{
+        font-size: 3vw;
+        font-family: cute;
+        text-align: center;
+        color: white;
+        margin-bottom: 3vw;
+        font-weight: 100;
+        text-transform: capitalize;
+    }
+    .pics{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 5vw;
+        img{
+            margin-top: 3vw;
+            width: 25vw;
+            border-right: 1px solid #fe9000;
+        }
+    }
+}
+.sect-4{
+    background:url(../img/background-3.gif) ;
+    background-size: cover;
+    padding: 2vw;
+    height: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .enjoy{
+        background: #17171e91;
+        border: 1vw #fe9000 solid;
+        text-align: center;
+        padding: 2vw;
+        width: 50%;
+        color: white;
+        h2{
+            text-transform: capitalize;
+            font-size: 3vw;
+            font-family: cute;
+            margin-bottom: 3vw;
+            font-weight: 100;
+        }
+        p{
+            font-size: 2vw;
+        }
+    }
+}
+.sect-5{
+    background: #17171e;
+    padding: 2vw;
+    h2{
+        color: white;
+        font-family: cute;
+        font-size: 3vw;
+        margin-bottom: 2vw;
+        text-align: center;
+        text-transform: capitalize;
+        font-weight: 100;
+    }
+    .menuBox{
+        width: 100%;
+        padding: 2vw;
+        display: flex;
+        justify-content: space-evenly;
+        .box{
+            width: 30%;
+            &:nth-child(1){
+                img{
+                    width: 25vw;
+                    height: 23vw;
+                }
+            }
+            &:nth-child(2){
+                img{
+                    width: 25vw;
+                    height: 23vw;
+                }
+            }    &:nth-child(3){
+                img{
+                    width: 25vw;
+                }
+            }
+            img{
+                width: 30vw;
+            }
+            h3{
+                font-size: 2.3vw;
+                text-transform: uppercase;
+                font-weight: 100;
+                color: #fe9000;
+                font-family: superfont;
+                text-align: left;
+                margin: 2vw 0;
+            }
+            p{
+                font-size: 1vw;
+                color: white;
+                margin-bottom: 2vw;
+            }
+            h6{
+                font-size: 1.5vw;
+                color: #fe9000;
+                font-family: superfont;
+                font-weight: 100;
+            }
+        }
+    }
+
+}
+.sect-6{
+    background: #fe9000;
+    display: flex;
+    justify-content: space-around;
+    height: 30vw;
+    position: relative;
+    padding: 2vw;
+    img{
+        width: 38vw;
+        position: absolute;
+        left: -8vw;
+        top: -3vw;
+    }
+    .sectS{
+        width: 40%;
+        text-align: justify;
+        color: white;
+        margin-left: 25vw;
+        margin-top: 5vw;
+        h2{
+            font-size: 4vw;
+            font-weight: 100;
+            font-family: cute;
+            text-transform: capitalize;
+            margin-bottom: 2vw;
+        }
+        p{
+            font-size: 1.8vw;
+
+        }
+    }
+}
+footer{
+    background: #17171e;
+    padding: 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    .footnav{
+        width: 100%;
+        nav{
+            width: 60%;
+            margin-left: 20vw;
+            ul{
+            // background: red;
+                padding: 2vw;
+                display: flex;
+                justify-content: space-around;
+                li{
+                    list-style: none;
+                    a{
+                        text-transform: uppercase;
+                        font-weight: 100;
+                        font-family: superfont;
+                        text-decoration: none;
+                        color: white;
+                        font-size: 1.7vw;
+                    }
+                }
+            }
+        }
+    }
+    .social{
+        width: 20%;
+        padding: 1vw;
+        display: flex;
+        justify-content: space-around;
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 2.3vw;
+        }
+    }
+}
